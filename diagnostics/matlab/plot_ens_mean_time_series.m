@@ -131,6 +131,7 @@ end
 pinfo
 
 PlotEnsMeanTimeSeries( pinfo )
+saveas(gcf, 'plot_ens_mean_time_series.png')
 
 
 % <next few lines under version control, do not edit>

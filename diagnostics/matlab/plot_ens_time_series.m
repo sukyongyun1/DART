@@ -135,7 +135,7 @@ end
 pinfo
 
 PlotEnsTimeSeries( pinfo )
-
+saveas(gcf, 'plot_ens_time_series_result.png')
 
 % <next few lines under version control, do not edit>
 % $URL$

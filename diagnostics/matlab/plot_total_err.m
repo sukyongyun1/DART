@@ -95,7 +95,7 @@ switch lower(pinfo.model)
 end
 
 PlotTotalErr( pinfo );
-
+saveas(gcf, 'plot_total_err.png')
 
 % <next few lines under version control, do not edit>
 % $URL$
